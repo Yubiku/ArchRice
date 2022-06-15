@@ -7,3 +7,5 @@
 -[] Sway
 -[] Terminator
 -[] Zsh
+
+Installation method uses `stow`
