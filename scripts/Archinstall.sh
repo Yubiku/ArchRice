@@ -2,4 +2,4 @@
 
 # ArchLinux Installation script for base with rice software
 
-sudo pacman -S i3 feh picom terminator 
+sudo pacman -S i3 feh picom terminator xdg-user-dirs
