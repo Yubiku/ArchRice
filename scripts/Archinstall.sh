@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# ArchLinux Installation script for base with rice software
+# ArchLinux Installation script for a Minimal i3 Setup
 
-sudo pacman -S base-devel i3-gaps zsh feh picom terminator pcmanfm xdg-user-dirs
+sudo pacman -S base-devel alsa-utils i3-gaps i3-blocks zsh feh picom arandr terminator pcmanfm xdg-user-dirs
 
 # create user
 useradd -m -g wheel biku
