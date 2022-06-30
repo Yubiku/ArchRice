@@ -16,7 +16,6 @@ PS1="%B%{$fg[green]%}[%{$fg[blue]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 # Aliasses
 alias ls='ls --color=auto'
 alias cmatrix='cmatrix -s -C blue'
-alias code='vscodium'
 
 # History in Cache Directory:
 HISTSIZE=1000
@@ -38,6 +37,6 @@ _comp_options+=(globdots)		# Include hidden files.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Fedora/Debian
+# Debian
 # source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
