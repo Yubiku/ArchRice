@@ -1,4 +1,16 @@
 #!/bin/sh
 # i3 Install and configuration 
 
-sudo pacman -S i3-gaps i3-blocks feh picom arandr pcmanfm terminator
+# Variables
+
+
+# Options
+aur_helper=true
+
+sudo pacman -S i3-gaps i3-blocks dunst feh picom arandr pcmanfm terminator
+
+if [[ $aur_helper = true ]]; then
+    cd /tmp
+    git clone https://aur.archlinux.org/paru.git
+    cd paru/;makepkg -si --noconfirm;cd
+fi
