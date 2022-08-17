@@ -7,7 +7,7 @@
 # Options
 aur_helper=true
 
-sudo pacman -S i3-gaps i3-blocks dunst feh picom arandr pcmanfm terminator
+sudo pacman -S i3-gaps i3-blocks dunst feh picom arandr pcmanfm xfce4-terminal
 
 if [[ $aur_helper = true ]]; then
     cd /tmp
